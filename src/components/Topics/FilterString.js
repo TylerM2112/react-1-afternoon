@@ -18,8 +18,6 @@ class FilterString extends Component {
         let animals = this.state.animals;
         let filteredArray = animals.filter(animal => animal.includes(userInput));
         this.setState({ filteredArray: filteredArray })
-console.log(this.state.animals)
-console.log(userInput)
     };
     
     render() {
